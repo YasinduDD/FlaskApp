@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: yasindumit/flask-app:latest
+        image: localhost:5000/baeldung-flask-app
         ports:
         - containerPort: 6000
 ---
